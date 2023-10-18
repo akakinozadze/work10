@@ -135,14 +135,11 @@
 /* section2 */
 .section-2 {
     width: 100%;
-    background-color: cadetblue;
     margin-top: 451px;
 }
 
 .bottom-section-mother {
     max-width: 1197px;
-    /* height: 1080px; */
-    background-color: aquamarine;
     margin-top: 174px;
     margin: auto;
     width: 80%;
@@ -161,7 +158,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(200, 255, 0);
 }
 
 .bottom-left-h2 {
@@ -225,7 +221,7 @@
 }
 
 .bottom-right-h2 {
-    background-color: #F84646;
+
     font-family: 'Manrope';
     font-weight: 700;
     font-size: 64px;
@@ -237,6 +233,7 @@
 
 .footer {
     width: 100%;
+    background-color:#F8464A ;
 }
 
 .mother-footer {
@@ -244,7 +241,7 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
-    background-color: #808080;
+
     margin-top: 40px;
 }
 
@@ -271,6 +268,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: #E6E6E6 ;
 }
 
 .box-2 {
@@ -287,15 +285,17 @@
     max-width: 151px;
     height: 136px;
 }
+
 .pharagrap-last {
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    background-color: #F84646;
-    max-width:1034px ;
+    max-width: 1034px;
     margin: auto;
-    
+    color:  #FFFFFF;
+
 }
+
 .last-div {
     margin-top: 50px;
 }
@@ -303,7 +303,7 @@
 
 @media (max-width:1024px) {
     .box-top {
-        max-width: 764px; 
+        max-width: 764px;
 
     }
 
@@ -337,8 +337,6 @@
     .box-section-bottom-left {
         max-width: 480px;
         height: 404px;
-        background-color: blueviolet;
-
     }
 
     .bottom-left-h2 {
@@ -347,29 +345,75 @@
         font-weight: 700;
         font-family: 'Manrope';
     }
+
     .bottom-left-h2 {
         font-size: 58px;
         line-height: 59.5px;
-        /* max-width: 480px; */
         height: 60px;
     }
+
     .pharagrap-left {
         font-size: 14px;
         line-height: 28.5px;
         height: 171px;
+
     }
+
     .box-section-bottom-right {
         width: 424px;
         margin-left: 56px;
     }
+
     .image-right {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
+
+    .image-bottom {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-image {
+        max-width: 424px;
+        height: 404px;
+    }
+
+    .box-section-bottom-bottom {
+        max-width: 904px;
+        display: flex;
+        height: 404px;
+        width: 90%;
+    }
+
+    .bottom-right {
+        max-width: 480px;
+        height: 404px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 56px;
+    }
+
+    .bottom-right-h2 {
+        font-size: 58px;
+        line-height: 59.5px;
+    }
+
+    .pharagrap-left {
+        line-height: 28.5px;
+        font-size: 14px;
+        font-weight: 400;
+        height: 191px;
+        max-width: 428px;
+    }
+
+    /* footer stile */
     .mother-footer {
         max-width: 903.04px;
-        background-color: blue;
+        width: 80%;
+
     }
 
     .box-11 {
@@ -388,6 +432,7 @@
     .box-4 {
         max-width: 153px;
     }
+
     .pharagrap-last {
         width: 90%;
         margin-top: 50px;
@@ -426,28 +471,30 @@
         font-size: 12px;
         line-height: 22px;
     }
+
+
     .mother-footer {
-        max-width:258.61px;
+        max-width: 258.61px;
         height: 1027px;
-        background-color: aqua;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: cadetblue;
-        margin-right: 96.39px;
-    }
-    .footer {
-        padding-top: 40px;
-        background-color: chartreuse;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
-        
     }
+
+    .footer {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+
     .box-2 {
         max-width: 258.61px;
     }
+
     .pharagrap-last {
         margin-top: 124px;
         width: 70%;
