@@ -44,7 +44,6 @@
 }
 
 .section-1 {
-
     width: 80%;
     margin: auto;
 }
@@ -78,7 +77,6 @@
     line-height: 39.5px;
     letter-spacing: 0.2px;
     text-align: center;
-
     margin: auto;
     font-family: 'Manrope';
 
@@ -88,8 +86,6 @@
     width: 298px;
     height: 208.5px;
     row-gap: 91px;
-
-
     text-align: center;
 
 }
@@ -113,7 +109,6 @@
     font-size: 36px;
     line-height: 49.18px;
     margin-top: 10px;
-
     color: #000000;
     font-family: 'Manrope';
 }
@@ -124,7 +119,6 @@
     font-size: 18px;
     font-weight: 400;
     max-width: 316px;
-
     color: #000000;
     text-align: center;
     margin-top: 17px;
@@ -135,12 +129,11 @@
 /* section2 */
 .section-2 {
     width: 100%;
-    margin-top: 451px;
+
 }
 
 .bottom-section-mother {
     max-width: 1197px;
-    margin-top: 174px;
     margin: auto;
     width: 80%;
 }
@@ -176,6 +169,7 @@
     color: #808080;
     font-family: 'Manrope';
     max-width: 523px;
+
 }
 
 .add {
@@ -187,7 +181,7 @@
     max-width: 160px;
     height: 48px;
     text-align: center;
-    padding: 12px;
+    /* padding: 12px; */
     color: #FFFFFF;
 }
 
@@ -198,7 +192,6 @@
 }
 
 .box-section-bottom-bottom {
-    margin-top: 120px;
     max-width: 1197px;
     height: 480px;
     display: flex;
@@ -233,7 +226,7 @@
 
 .footer {
     width: 100%;
-    background-color:#F8464A ;
+    background-color: #F8464A;
 }
 
 .mother-footer {
@@ -268,7 +261,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #E6E6E6 ;
+    color: #E6E6E6;
 }
 
 .box-2 {
@@ -292,7 +285,7 @@
     line-height: 32px;
     max-width: 1034px;
     margin: auto;
-    color:  #FFFFFF;
+    color: #FFFFFF;
 
 }
 
@@ -328,10 +321,15 @@
         height: 201px;
     }
 
+    .bottom-section-mother {
+        margin-top: 151px;
+        background-color: blueviolet;
+    }
+
     .box-section-bottom-top {
         max-width: 904px;
         height: 404px;
-        width: 90%;
+
     }
 
     .box-section-bottom-left {
@@ -346,12 +344,6 @@
         font-family: 'Manrope';
     }
 
-    .bottom-left-h2 {
-        font-size: 58px;
-        line-height: 59.5px;
-        height: 60px;
-    }
-
     .pharagrap-left {
         font-size: 14px;
         line-height: 28.5px;
@@ -361,7 +353,7 @@
 
     .box-section-bottom-right {
         width: 424px;
-        margin-left: 56px;
+
     }
 
     .image-right {
@@ -386,6 +378,7 @@
         display: flex;
         height: 404px;
         width: 90%;
+        margin-top: 120px;
     }
 
     .bottom-right {
@@ -393,8 +386,19 @@
         height: 404px;
         display: flex;
         flex-direction: column;
-        margin-left: 56px;
     }
+
+    .image-bottom {
+        display: none;
+    }
+
+    /* .bacgraund-image {
+        background-image: url(../image/Illustration3.svg);
+        max-width: 424px;
+        height: 404px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
 
     .bottom-right-h2 {
         font-size: 58px;
@@ -472,10 +476,79 @@
         line-height: 22px;
     }
 
+    .bottom-section-mother {
+        text-align: center;
+        margin-top: 190px;
+    }
+
+    .box-section-bottom-top {
+        max-width: 738px;
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        width: 90%;
+
+    }
+
+    .box-section-bottom-bottom {
+        max-width: 338px;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .image-right {
+        max-width: 335px;
+
+
+    }
+
+    .box-section-bottom-right {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .bottom-left-h2 {
+        max-width: 335px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 41.5px;
+    }
+
+    .pharagrap-left {
+        max-width: 336px;
+        height: 200px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28.5px;
+        text-align: center;
+
+    }
+
+    .add {
+        max-width: 338px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 12px;
+
+
+    }
+
+    .bottom-right-h2 {
+        max-width: 335px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 41.5px;
+        text-align: center;
+    }
+
+    /* footer clas */
 
     .mother-footer {
         max-width: 258.61px;
-        height: 1027px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -483,7 +556,7 @@
     }
 
     .footer {
-        padding-top: 40px;
+        margin-top: 45px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
